@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+.bugtable {
+	width: 100%;
+}
+
+.bugtable td {
+	padding: 5px;
+}
+
+.bugtable th {
+	background-color: #DeDeDe;
+}
+
+.bugtable_closed td {
+	text-decoration: line-through;
+	background-color: #07a841;
+}
+
+.bugtable_resolved td {
+	background-color: #73c03c;
+}
+
+.bugtable_verified td {
+	background-color: #07a841;
+}
+
+.bugtable_P1 td {
+	font-weight: bold;
+	background-color: #ea261a;
+}
+
+.bugtable_P2 td {
+	background-color: #ef551f;
+}
+
+.bugtable_P3 td {
+	background-color: #f38222;
+}
+
+.bugtable_P4 td {
+	background-color: #fab61d;
+}
+
+.bugtable_P5 td {
+	background-color: #fab61d;
+}
+
+.bugtable a:link { font-weight:bold; text-decoration:underline;}
+.bugtable a:visited { font-weight:bold; text-decoration:underline; }

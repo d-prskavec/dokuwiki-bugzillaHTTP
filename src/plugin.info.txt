@@ -1,0 +1,8 @@
+base	bugzillaHTTP
+name    bugzilla http-xml plugin
+desc    Gets information about bugs via HTTP (xml view)
+author  Andreas Parschalk
+email   dprskavec@gmail.com
+date    2012-08-17
+url     http://www.dokuwiki.org/plugin:bugzillaHTTP
+syntax  [buglist | 12345,123,45]
